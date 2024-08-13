@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+}
+.navbar {
+  padding: 8px 16px;
+  justify-content: space-around;
+  box-shadow: 0 3px 4px 1px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 16px;
+  list-style: none;
+  font-size: 13px;
+}
+.navbar ul a {
+  text-decoration: none;
+  color: white;
+  padding: 6px 20px;
+  padding: 10px 140px;
+}
+
+.navbar ul a:hover {
+  background-color: rgb(202, 194, 194);
+}
+
+.hero {
+  position: relative;
+  background-image: url(coffeehouse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-size: 90px;
+}
+
+.hero .timing {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 14px;
+  padding: 2px 5px;
+  background-color: black;
+}
+
+.hero .address {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  font-size: 14px;
+  padding: 2px 5px;
+}
+
+.w2-tag {
+  justify-items: flex-end;
+  color: white;
+  height: 30px;
+  width: 150px;
+}
+.w3-tag {
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 160px;
+  margin-top: 480px;
+}
+
+.container {
+  padding: 20px 300px;
+}
+
+/* start about */
+.about {
+  text-align: center;
+}
+.about h4 {
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  letter-spacing: 2px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about p {
+  text-align: justify;
+  color: gray;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.about .quote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(228, 226, 226);
+  padding: 20px;
+  border-left: 6px solid gray;
+}
+
+.about img {
+  width: 100%;
+}
+
+.about strong {
+  color: black;
+}
+/* startpic */
+
+.coffeehouse2 img {
+  width: 100%;
+}
+
+.coffeehouse2 h5 {
+  text-align: center !important;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 10px 0;
+  letter-spacing: 2px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adress {
+  margin-left: 170px;
+}
+
+.form {
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+}
+
+.form input {
+  width: 97%;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
